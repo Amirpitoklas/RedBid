@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Создать лот</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+
+<header>➕ Новый лот</header>
+
+<div class="container">
+    <form method="post">
+        <input type="text" name="name" placeholder="Название товара" required>
+        <input type="number" name="price" placeholder="Цена" required>
+        <button type="submit">Сохранить</button>
+    </form>
+
+    <br>
+    <a href="/">⬅ Назад</a>
+</div>
+
+</body>
+</html>
